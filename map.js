@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 20, bottom: 20, left: 20};
-	width = 800 - margin.left - margin.right,
-	height = 500 - margin.top - margin.bottom,
+	width = 100% - margin.left - margin.right,
+	height = 100% - margin.top - margin.bottom,
 	formatSubtraction = d3.format("100");
 
 var svg = d3.select("#map").append("svg")
