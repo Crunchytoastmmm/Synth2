@@ -1,3 +1,7 @@
+!function() {
+  var d3 = {
+    version: "3.5.6"
+  };
 var margin = {top: 20, right: 20, bottom: 20, left: 20};
 	width = 100% - margin.left - margin.right,
 	height = 100% - margin.top - margin.bottom,
